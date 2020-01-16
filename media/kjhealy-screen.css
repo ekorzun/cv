@@ -231,10 +231,10 @@ strong {
 
 
 @media only screen and (max-width: 640px) {
-	body {
+	/* body {
 		font-size: 16px;
-	}
-	
+	} */
+
 	#content {
 		/* padding-left: 1rem; */
 		/* padding-right: 1rem; */
