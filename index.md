@@ -19,9 +19,9 @@ HTML, CSS, JS.
 `Март 2018 – 
 Настоящее время`
 Lead Frontend Architect, __[АвтоПасс / ОднаКасса](https://odnakassa.ru/) (Холдинг ЦППК)__, Москва
-- Разработка комплексной архитектуры и инфраструктуры всех проектов (Private NPM, CI&times;CD, Docker, Deploy, Nomad);
-- SPA (система мониторинга автобусов и пассажиров, 30+ экранов) на Vue&times;Vuex&times;Leaflet;
-- SPA (система продажи билетов) на React&times;Baobab;
+- Разработка комплексной архитектуры и инфраструктуры всех проектов (Private NPM, CI &times; CD, Docker, Deploy, Nomad);
+- SPA (система мониторинга автобусов и пассажиров, 30+ экранов) на Vue &times; Vuex &times; Leaflet;
+- SPA (система продажи билетов) на React &times; Baobab;
 - Встраиваемый виджет продажи билетов;
 - Расширение команды;
 - И еще много всего...

@@ -49,22 +49,36 @@ table {
 
 /* end of reset */
 
-
-
 body {
 	font: normal normal 400;
 	font-size: 80%;
 	line-height: 1.5em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Verdana,sans-serif;
-	margin-top: 1em;
-	margin-left: 1em;
-	padding-bottom: 2rem;
+	padding-bottom: 2em;
 }
+
+#content {
+	margin: 1rem auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	max-width: 960px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+
+h1,h2,h3,h4 {
+	font-weight: 400;
+	font-family: Cousine,Verdana,sans-serif;
+	width: 60%;
+}
+
 
 h1 + p {
 	padding-left: 0;
 }
+
 
 p {
 	position: relative;
@@ -72,26 +86,31 @@ p {
 	margin-bottom: 0.7em;
 	margin-right: 0;
 	width: 60%;
-	padding-left: 1rem;
+	padding-left: 1em;
+	line-height: 1.75;
 }
 
 code {
 	font: normal normal;
-	font-size: 75%;
+	/* font-size: 75%; */
 	/*line-height: 1em;*/
 	font-family: Menlo, monospace,sans-serif;
-	color: #aaa;
+	color: #999;
 	max-width:100px;
 }
 
 p code {
 	position: absolute;
 	left: -18%;
+	/* top: .3em; */
+	line-height: 2;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: .75em;
 }
 
 
 ul { 
-	padding-left: 1rem;
+	padding-left: 1em;
 	position: relative;
 	left: 33%;
 	width: 60%;
@@ -100,16 +119,20 @@ ul {
 }
 
 /*uncomment to get dashes in the list*/
-/*li:before {
-	content: "-";
+li:before {
+	content: "•";
 	position: relative;
 	left: -0.25em;
-}*/
+	margin-right: .5em;
+	opacity: .25;
+	font-size: .5em;
+}
 
 li {
 	/*second line indent*/
 	padding-left: 1.25em;
 	text-indent: -1.25em;
+	line-height: 1.75;
 	/*color: #777;*/
 }
 
@@ -118,12 +141,6 @@ li ul {
 	left: 0;
 	width: 100%;
 	margin-top: 0.25em;
-}
-
-h1,h2,h3,h4 {
-	font-weight: 400;
-	font-family: Cousine,Verdana,sans-serif;
-	width: 60%;
 }
 
 h1 {
@@ -138,26 +155,41 @@ h1+p {
 	/*subtitle*/
 	font-style: italic;
 	font-size: 120%;
+	margin-top: .5em;
 }
 
 h2 {
 	font-size: 1.1em;
+	top: 0;
+	padding-top: 1.4em;
 	color: #a00;
 	margin-top: 3em;
 	position: relative;
-	top: 1.4em;
 	text-align: right;
 	width: 20%;
+	position: sticky;
+	padding-right: 3em;
+	background-color: #fff;
 }
 
-h3 {
+h2 ~ p {
+	margin-top: -1.4em;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.5em;
+}
+
+ul + p, p+p {
+	margin-top: 1.75em;
+}
+
+/* h3 {
 	font-size: 1em;
 	line-height: 2em; 
 	position: relative;
 	top: 1.7em;
 	text-align: right;
 	width: 20%;
-}
+} */
 
 a {
 	color: inherit;
@@ -197,7 +229,56 @@ strong {
 
 
 
-/*
-@media only screen and (max-width: 480px) {
-	make one column somehow...
-}*/
+
+@media only screen and (max-width: 640px) {
+	body {
+		font-size: 16px;
+	}
+	
+	#content {
+		/* padding-left: 1rem; */
+		/* padding-right: 1rem; */
+	}
+
+	h1 {
+		position: static
+	}
+
+	h2 {
+		position: static;
+		display: block;
+		width: 100%;
+		text-align: left;
+		margin-top: 0;
+		left: 0;
+	}
+
+	h1,h2,h3 {
+		padding-right: 0;
+	}
+
+	h2 ~ p {
+		position: static;
+		display: block;
+		left: 0;
+		width: 100%;
+		margin-top: 0;
+		padding-left: 0;
+		white-space: normal;
+	}
+
+	p > code {
+		display: block;
+		position: static;
+		width: 100%;
+		max-width: 100%;
+	}
+	p + ul {
+		position: static;
+		padding-left: 0;
+	}
+
+	p, ul {
+		width: 100%
+	}
+}
