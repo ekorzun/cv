@@ -59,6 +59,11 @@ body {
 	font-family: Verdana,sans-serif;
 	margin-top: 1em;
 	margin-left: 1em;
+	padding-bottom: 2rem;
+}
+
+h1 + p {
+	padding-left: 0;
 }
 
 p {
@@ -66,27 +71,30 @@ p {
 	left: 33%;
 	margin-bottom: 0.7em;
 	margin-right: 0;
-	width: 65%;
+	width: 60%;
+	padding-left: 1rem;
 }
 
 code {
 	font: normal normal;
-	font-size: 60%;
+	font-size: 75%;
 	/*line-height: 1em;*/
-	font-family: Menlo,monospace,sans-serif;
+	font-family: Menlo, monospace,sans-serif;
 	color: #aaa;
+	max-width:100px;
 }
 
 p code {
 	position: absolute;
-	left: -14%;
+	left: -18%;
 }
 
 
 ul { 
+	padding-left: 1rem;
 	position: relative;
 	left: 33%;
-	width: 65%;
+	width: 60%;
 	margin-bottom: 1.5em;
 	margin-top: -0.5em;
 }
@@ -115,7 +123,7 @@ li ul {
 h1,h2,h3,h4 {
 	font-weight: 400;
 	font-family: Cousine,Verdana,sans-serif;
-	width: 65%;
+	width: 60%;
 }
 
 h1 {
@@ -129,7 +137,7 @@ h1 {
 h1+p { 
 	/*subtitle*/
 	font-style: italic;
-	font-size: 110%;
+	font-size: 120%;
 }
 
 h2 {
@@ -161,6 +169,7 @@ a:hover {
 }
 
 #webaddress {
+	width: 50%;
 	margin-top: 1em;
 	position: relative;
 	left: 33%;
