@@ -82,12 +82,13 @@ h1 + p {
 
 p {
 	position: relative;
-	left: 33%;
+	left: 40%;
 	margin-bottom: 0.7em;
 	margin-right: 0;
-	width: 60%;
+	width: 55%;
 	padding-left: 1em;
 	line-height: 1.75;
+	box-sizing: border-box;
 }
 
 code {
@@ -95,25 +96,26 @@ code {
 	/* font-size: 75%; */
 	/*line-height: 1em;*/
 	font-family: Menlo, monospace,sans-serif;
-	color: #999;
+	color: #777;
 	max-width:100px;
 }
 
 p code {
 	position: absolute;
-	left: -18%;
-	/* top: .3em; */
+	left: -25%;
+	top: .3em;
 	line-height: 2;
 	font-family: 'Courier New', Courier, monospace;
 	font-size: .75em;
+	max-width: 25%;
 }
 
 
 ul { 
 	padding-left: 1em;
 	position: relative;
-	left: 33%;
-	width: 60%;
+	left: 40%;
+	width: 55%;
 	margin-bottom: 1.5em;
 	margin-top: -0.5em;
 }
@@ -132,7 +134,8 @@ li {
 	/*second line indent*/
 	padding-left: 1.25em;
 	text-indent: -1.25em;
-	line-height: 1.75;
+	line-height: 2;
+	font-size: .85rem;
 	/*color: #777;*/
 }
 
@@ -148,7 +151,8 @@ h1 {
 	font-size: 3em;
 	line-height: 1em;
 	position: relative;
-	left: 33%;
+	left: 40%;
+	padding-left: 1rem;
 }
 
 h1+p { 
@@ -156,6 +160,7 @@ h1+p {
 	font-style: italic;
 	font-size: 120%;
 	margin-top: .5em;
+	padding-left: 1rem;
 }
 
 h2 {
@@ -204,10 +209,11 @@ a:hover {
 	width: 50%;
 	margin-top: 1em;
 	position: relative;
-	left: 33%;
+	left: 40%;
 	color: #aaa;
 	font-family: Menlo,monospace,sans-serif;
 	font-size: 80%;
+	padding-left: 1rem;
 }
 
 #webaddress a {
@@ -227,6 +233,13 @@ strong {
 	display: none;
 }
 
+
+p > em {
+	text-decoration: line-through;
+	display: inline-block;
+	color: #999;
+	font-weight: normal;
+}
 
 
 
@@ -266,6 +279,8 @@ strong {
 		padding-left: 0;
 		white-space: normal;
 	}
+
+	
 
 	p > code {
 		display: block;
