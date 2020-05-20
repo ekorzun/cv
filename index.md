@@ -17,7 +17,7 @@ Full stack UX&times;UI developer
 
 Адаптивно верстаю, SVG, параллаксы, *–БЭМ–* CSS-модули, пре- и постпроцессоры, написание плагинов для них – вот это все.
 
-Знаю Vanilla JS, TS/Flow, React, SSR, Vue, Leaflet, *–Ionic–* React-Native, Socket.io, Jest, Puppeteer, *–Grunt/Gulp–* Webpack, Node, Git, Docker и еще много всяких слов.
+Знаю Vanilla JS, TS/Flow, React, SSR, Vue, Leaflet, *–Ionic–* React-Native, Socket.io, *–Mocha–* Jest, *–Grunt/Gulp–* Webpack, Node, Git, Docker и еще много всяких слов.
 
 Предпочтительные направления: Текстовые или графические редакторы, конструкторы, ГИС, визуализация данных.
 
