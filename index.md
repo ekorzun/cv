@@ -15,16 +15,18 @@ Full stack UX&times;UI developer
 
 Пишу User Stories, рисую скетчи на бумаге, делаю wireframe'ы.
 
-Адаптивно верстаю, SVG, параллаксы, *–БЭМ–* CSS-модули, пре- и постпроцессоры,  написание плагинов для них – вот это все.
+Адаптивно верстаю, SVG, параллаксы, *–БЭМ–* CSS-модули, пре- и постпроцессоры, написание плагинов для них – вот это все.
 
-Знаю Vanilla JS, TS/Flow, React, Vue, Leaflet, Ionic, Socket.io, Jest, Puppeteer, *Gulp* Webpack, Node, MongoDB, Express, Git, Docker и еще много всяких слов.
+Знаю Vanilla JS, TS/Flow, React, SSR, Vue, Leaflet, *–Ionic–* React-Native, Socket.io, Jest, Puppeteer, *–Grunt/Gulp–* Webpack, Node, Git, Docker и еще много всяких слов.
+
+Предпочтительные направления: Текстовые или графические редакторы, конструкторы, ГИС, визуализация данных.
 
 ## Опыт работы
 
 `Март 2018 – 
 Настоящее время`
 Lead Frontend Architect, __[АвтоПасс / ОднаКасса](https://odnakassa.ru/) (Холдинг ЦППК)__, Москва
-- Разработка комплексной архитектуры и инфраструктуры всех проектов (Private NPM, CI &times; CD, Docker, Deploy, Nomad, BFF);
+- Разработка комплексной архитектуры и инфраструктуры всех проектов (Private NPM, CI &times; CD, Docker, Deploy, Nomad/k8s, BFF);
 - Разработка SPA (система мониторинга автобусов и пассажиров, 30+ экранов) на Vue &times; Vuex &times; Leaflet;
 - Разработка нескольких SPA (система продажи билетов) и виджетов на React &times; Baobab;
 - Проведение интервью, расширение команды, обучение команды.
@@ -32,10 +34,10 @@ Lead Frontend Architect, __[АвтоПасс / ОднаКасса](https://odnak
 <!--  -->
 `Январь 2016 – 
 Май 2017`
-Lead UI Developer, [__ManyChat__](https://manychat.com/), USA
+Lead Frontend Engineer, [__ManyChat__](https://manychat.com/), USA
 - Активное участие в проектировании и дизайне сложнейших интерфейсов;
 - Разработка двух больших SPA;
-- Расширение команды.
+- Проведение интервью, расширение команды.
 
 <!--  -->
 `Октябрь 2015 – 
